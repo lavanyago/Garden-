@@ -1,8 +1,7 @@
-## GardenIt
+## Garden
 
 GardenIt is an online garden management system that lets you keep track of your house plants and see how often you need to water them
 
-It is intended for educational purposes to demonstrate how to build a full-stack web application. The application is built using .NET Core 3.1 and C#.
 
 ## Components
 
@@ -32,24 +31,4 @@ The following command can be used to generate the custom identity pages:
 `dotnet aspnet-codegenerator identity -dc GardenIt.Models.Storage.ApplicationDbContext --files "Account.Register;Account.Login;Account.RegisterConfirmation"`
 
 
-## Deploying
-To deploy this application:
-- Create an App Service in Azure
-- Ensure the Azure App Service extension is installed in VS Code
-- Ensure the extension is synced to your Azure account
-- Create a publish folder: `dotnet publish -c Release -o ./publish`
-- Deploy by right clicking on the publish folder and deploying to the web app
-
-The application is available at: https://gardenit.azurewebsites.net
-
-
-## Resources
-
-[Uploading images tutorial](https://www.youtube.com/watch?v=QpJvqiHl1Fo)
-
-[Scaffolding Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-3.1&tabs=netcore-cli)
-
-[SendGrid integration](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/accconfirm?view=aspnetcore-3.1&tabs=visual-studio)
-
-[Andrew Lock blog](https://andrewlock.net/customising-aspnetcore-identity-without-editing-the-pagemodel/)
 
