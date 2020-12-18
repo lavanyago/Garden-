@@ -27,8 +27,6 @@ The Form.cshtml view is re-used for both creation and editing, and is toggled us
 ### Identity
 The identity was scaffolded using the .NET core identity tool. It largely uses the default setup, however, integration with SendGrid has been added for confirming email addresses on registration. 
 
-The following command can be used to generate the custom identity pages:
-`dotnet aspnet-codegenerator identity -dc GardenIt.Models.Storage.ApplicationDbContext --files "Account.Register;Account.Login;Account.RegisterConfirmation"`
 
 
 
